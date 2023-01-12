@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie</title>
+
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 7%;
+            background-color: burlywood;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            margin-right: 20px;
+            font-size: 25px;
+            font-weight: 700;
+            text-decoration: none;
+            color: rgb(19, 18, 18);
+
+        }
+
+        a span {
+            color: white;
+        }
+
+        nav a:last-child {
+            margin-right: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            padding: 0 7%;
+        }
+
+        .food {
+            border: 2px solid burlywood;
+            padding: 30px 20px;
+            border-radius: 20px;
+            box-shadow: 17px 16px 29px -16px rgba(0, 0, 0, 0.75);
+        }
+
+        .food h2 {
+            color: burlywood;
+            font-size: 28px;
+            font-weight: 800;
+        }
+
+        @media screen and (max-width:576px) {
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        @media screen and (min-width:577px) and (max-width:992px) {
+            .container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        .image-section {
+            display: flex;
+            justify-content: center;
+        }
+
+        .image-section img {
+            width: 75%;
+        }
+
+        .order-btn {
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            background-color: burlywood;
+            padding: 10px 40px;
+            border: 0;
+            color: white;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: burlywood;
+            border: 1px solid burlywood;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span>
+                <a href="">F<span>oo</span>die</a>
+                <a href="">Home</a>
+                <a href="">All Items</a>
+            </span>
+            <span>
+
+                <a href="">Login</a>
+                <a href="">Logout</a>
+
+            </span>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="food">
+            <div class="image-section">
+                <img src="./food.png" alt="">
+            </div>
+            <h2>Item - 1</h2>
+            <h4>Price - 100</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero esse earum quasi accusantium voluptate
+                debitis ipsa commodi recusandae vero, pariatur et sint autem optio architecto consectetur accusamus quos
+                vitae ipsum!</p>
+            <div class="order-btn">
+                <button>
+                    Order Now
+                </button>
+            </div>
+        </div>
+        <div class="food">
+            <div class="image-section">
+                <img src="./food.png" alt="">
+            </div>
+            <h2>Item - 2</h2>
+            <h4>Price - 200</h4>
+            <p>Beatae dicta iure sed error suscipit quod repellendus. Maiores nisi dolorum, nihil dignissimos vitae sed
+                labore obcaecati officiis sapiente quibusdam veniam ea, quaerat quo assumenda harum maxime facilis, quam
+                incidunt.</p>
+            <div class="order-btn">
+                <button>
+                    Order Now
+                </button>
+            </div>
+        </div>
+        <div class="food">
+            <div class="image-section">
+                <img src="./food.png" alt="">
+            </div>
+            <h2>Item - 3</h2>
+            <h4>Price - 300</h4>
+            <p>Voluptates, voluptate dignissimos hic delectus ullam quasi veniam minus accusamus ipsa debitis porro
+                laboriosam ipsum dicta nemo necessitatibus, totam cumque sequi neque quis! Maiores, voluptas blanditiis
+                illo consectetur libero et!</p>
+            <div class="order-btn">
+                <button>
+                    Order Now
+                </button>
+            </div>
+        </div>
+        <div class="food">
+            <div class="image-section">
+                <img src="./food.png" alt="">
+            </div>
+            <h2>Item - 4</h2>
+            <h4>Price - 400</h4>
+            <p>Ab optio dolorum corrupti laudantium esse perspiciatis mollitia ullam ea, rem, fuga tempore rerum
+                voluptatum tempora ducimus, nisi excepturi! Quia, obcaecati officia! Ab facilis cupiditate perferendis
+                dolore voluptatem, error id!</p>
+            <div class="order-btn">
+                <button>
+                    Order Now
+                </button>
+            </div>
+        </div>
+        <div class="food">
+            <div class="image-section">
+                <img src="./food.png" alt="">
+            </div>
+            <h2>Item - 5</h2>
+            <h4>Price - 500</h4>
+            <p>Aspernatur blanditiis neque, fugit sunt quos dolorum facere ratione non quisquam dolor ex sapiente!
+                Repellat cupiditate tempore sequi repellendus, quis amet quidem temporibus voluptatem facilis ut
+                asperiores maiores, provident expedita.</p>
+            <div class="order-btn">
+                <button>
+                    Order Now
+                </button>
+            </div>
+        </div>
+        <div class="food">
+            <div class="image-section">
+                <img src="./food.png" alt="">
+            </div>
+            <h2>Item - 6</h2>
+            <h4>Price - 600</h4>
+            <p>Architecto maiores vel eaque natus est ratione, totam quae recusandae officia adipisci. Commodi
+                consectetur officia sed minus pariatur aliquam molestias aperiam quos sapiente nulla voluptas dolore
+                veritatis quisquam, eaque fuga!</p>
+            <div class="order-btn">
+                <button>
+                    Order Now
+                </button>
+            </div>
+        </div>
+        <div class="food">
+            <div class="image-section">
+                <img src="./food.png" alt="">
+            </div>
+            <h2>Item - 7</h2>
+            <h4>Price - 700</h4>
+            <p>Totam, voluptatem quos consectetur dicta aut molestiae voluptates ducimus? Enim, ipsam deserunt explicabo
+                natus, rem dignissimos vero adipisci fugit exercitationem error recusandae esse nulla nemo eos sunt,
+                labore atque perferendis.</p>
+            <div class="order-btn">
+                <button>
+                    Order Now
+                </button>
+            </div>
+        </div>
+        <div class="food">
+            <div class="image-section">
+                <img src="./food.png" alt="">
+            </div>
+            <h2>Item - 8</h2>
+            <h4>Price - 800</h4>
+            <p>Esse at repellendus vero aspernatur nesciunt odit officiis, dicta qui quae ipsam voluptates blanditiis
+                soluta quaerat, commodi a fuga, dolorum atque sit. Nihil voluptatem debitis fugit id, deleniti aut
+                nulla?</p>
+            <div class="order-btn">
+                <button>
+                    Order Now
+                </button>
+            </div>
+        </div>
+        <div class="food">
+            <div class="image-section">
+                <img src="./food.png" alt="">
+            </div>
+            <h2>Item - 9</h2>
+            <h4>Price - 900</h4>
+            <p>Molestias sapiente velit praesentium ad voluptas aut placeat et cupiditate, ex laudantium natus odit
+                doloribus delectus porro ipsum recusandae maxime tenetur ipsam quis eum voluptate aliquam illo obcaecati
+                deleniti. Nobis?</p>
+            <div class="order-btn">
+                <button>
+                    Order Now
+                </button>
+            </div>
+        </div>
+        <div class="food">
+            <div class="image-section">
+                <img src="./food.png" alt="">
+            </div>
+            <h2>Item - 10</h2>
+            <h4>Price - 1000</h4>
+            <p>Molestiae voluptates vero magnam explicabo dolore animi reprehenderit praesentium et sint totam, at unde
+                ut similique officiis quidem quae exercitationem numquam adipisci. Saepe incidunt, voluptate
+                perspiciatis libero consequuntur inventore ex.</p>
+            <div class="order-btn">
+                <button>
+                    Order Now
+                </button>
+            </div>
+        </div>
+        <div class="food">
+            <div class="image-section">
+                <img src="./food.png" alt="">
+            </div>
+            <h2>Item - 11</h2>
+            <h4>Price - 1100</h4>
+            <p>Nisi, nemo! Quia expedita perferendis incidunt dolorem officiis aliquid veniam doloremque ullam
+                voluptatem est soluta deserunt commodi ex, veritatis porro rerum accusamus nostrum corporis culpa ut
+                neque, eligendi libero? A.</p>
+            <div class="order-btn">
+                <button>
+                    Order Now
+                </button>
+            </div>
+        </div>
+        <div class="food">
+            <div class="image-section">
+                <img src="./food.png" alt="">
+            </div>
+            <h2>Item - 12</h2>
+            <h4>Price - 1200</h4>
+            <p>Dolorem voluptatum nostrum incidunt porro animi optio nemo veniam dolor neque, expedita placeat
+                perspiciatis natus ducimus amet commodi dolore praesentium aliquid! Id nam dolorum veniam ipsa
+                asperiores numquam molestias magni.</p>
+            <div class="order-btn">
+                <button>
+                    Order Now
+                </button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
